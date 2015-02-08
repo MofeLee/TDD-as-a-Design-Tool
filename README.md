@@ -13,10 +13,17 @@ Application name: meanjs-sample
 
 AngularJS Modules:
 
-* ngCookies
-* ngSanitize
+- ngCookies
+- ngSanitize
 
 
     grunt
 
 localhost:3000
+
+
+### 02 TDD on the Server
+
+02 02 What Are We Building
+
+    grunt test
