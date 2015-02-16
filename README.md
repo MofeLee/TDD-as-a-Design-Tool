@@ -40,4 +40,9 @@ localhost:3000
 
 02 04 More Than Models  
 
-02 05 API Routes  
+02 05 API Routes
+
+02 06 API Routes Pt 2 (не заработало. В базе нет записей.)
+
+http://localhost:3000/events/  
+http://localhost:3000/events/id
