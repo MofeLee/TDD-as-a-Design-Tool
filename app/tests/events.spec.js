@@ -3,6 +3,7 @@
 require('should');
 
 var Model = require('../models/event.js');
+
 describe('Event Model', function(){
     it('should have an array of ratings', function(){
         var event = new Model();
@@ -16,7 +17,6 @@ describe('Event Model', function(){
                 callback();
             };
         });
-
 
         it('should calculate average rating', function(){
             var event = new Model({

@@ -1,6 +1,10 @@
 # TDD-as-a-Design-Tool
-[Pluralsight] TDD as a Design Tool [2014, ENG]
+[Pluralsight] TDD as a Design Tool [2014, ENG]  
 
+
+should
+
+___
 
 ### 01 Getting Started
 
@@ -27,3 +31,8 @@ localhost:3000
 02 02 What Are We Building
 
     grunt test
+
+
+02 03 Refactoring
+
+    npm install --save lodash
