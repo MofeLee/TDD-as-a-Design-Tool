@@ -2,11 +2,11 @@
 [Pluralsight] TDD as a Design Tool [2014, ENG]  
 
 
-should
+should, Karma
 
 ___
 
-### 01 Getting Started
+## 01 Getting Started
 
     npm install -g yo
     npm install -g generator-meanjs
@@ -26,23 +26,31 @@ AngularJS Modules:
 localhost:3000
 
 
-### 02 TDD on the Server
+## 02 TDD on the Server
 
-02 02 What Are We Building
+### 02 02 What Are We Building
 
     grunt test
 
 
-02 03 Refactoring
+### 02 03 Refactoring
 
     npm install --save lodash
 
 
-02 04 More Than Models  
+### 02 04 More Than Models  
 
-02 05 API Routes
+### 02 05 API Routes
 
-02 06 API Routes Pt 2 (не заработало. В базе нет записей.)
+### 02 06 API Routes Pt 2 (не заработало. В базе нет записей.)
 
 http://localhost:3000/events/  
 http://localhost:3000/events/id
+
+
+## 03 TDD on the Client
+
+### 03 02 How the Client Works
+
+    yo meanjs:angular-module ratings
+    grunt test

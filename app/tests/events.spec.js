@@ -32,7 +32,7 @@ describe('Event Model', function(){
             });
         });
 
-        it('should set average ratings of 0 if o ratings', function(){
+        it('should set average ratings of 0 if 0 ratings', function(){
             var event = new Model();
             event.save(function(){
                 event.averageRating.should.equal(0);
